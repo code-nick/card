@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: blueviolet;
+    /* padding: 20px; */
+}
+.right-menu{
+    text-align: right;
+}
+.lable{
+    text-align: left;
+    margin: 0px 50px 0px 0px;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+i{
+    margin: 0 20px ;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:700px) {
+    i{
+        display: bl;
+
+    }
+    ul li {
+        display: block;
+    }
+    
+}
